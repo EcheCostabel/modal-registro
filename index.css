@@ -15,6 +15,18 @@ h1 {
     margin-bottom: 20px;
 }
 
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    overflow: auto;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.418);
+}
 .flex {
     width: 100%;
     height: 100%;
@@ -44,8 +56,8 @@ a:hover {
     width: 40rem;
     height: 20rem;
     background-color: rgba(46, 54, 123, 1);
-    top: 65px;
-    left: 430px;
+    top: 4.5rem;
+    left: 26.8rem;
     /* z-index: 1; */
     display: flex;
 }
@@ -55,13 +67,26 @@ a:hover {
     background: #FFFFFF;
     width: 18rem;
     height: 22rem;
-    left: 440px;
-    top: 54px;
+    left: 27.5rem;
+    top: 3.5rem;
     border-radius: 9px;
 }
 
 .divInferior__Empty{
     width: 50%;
+}
+
+.divInferior__Principal--Cuenta{
+    padding-top: 3rem;
+    color: white;
+}
+
+.divInferior__Principal--Button{
+    width: 7rem;
+    height: 2rem;
+    border: 1px solid white;
+    background: #2E367B;
+    color: #fff;
 }
 
 
@@ -110,3 +135,14 @@ a:hover {
     color: rgba(46, 54, 123, 1);
 }
 
+@keyframes modal {
+    from {
+        top: -330px;
+        opacity: 0;
+    }
+
+    to {
+        top: 0;
+        opacity: 1;
+    }
+}
