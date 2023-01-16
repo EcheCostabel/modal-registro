@@ -36,7 +36,6 @@ h1 {
     height: 100%;
     display: flex;
     justify-content: space-between;
-    /* align-items: center; */
     animation-name: modal;
     animation-duration: 1s;
 }
@@ -65,7 +64,6 @@ a:hover {
     background-color: rgba(46, 54, 123, 1);
     top: 4.5rem;
     left: 26.8rem;
-    /* z-index: 1; */
     display: flex;
 }
 
