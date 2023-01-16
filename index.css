@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+
+
 header {
     width: 100%;
     height: auto;
@@ -55,6 +58,7 @@ a:hover {
 }
 
 .divInferior {
+    font-family: 'Poppins', sans-serif;
     position: absolute;
     width: 40rem;
     height: 20rem;
@@ -66,6 +70,7 @@ a:hover {
 }
 
 .divSuperior {
+    font-family: 'Poppins', sans-serif;
     position: absolute;
     background: #FFFFFF;
     width: 18rem;
@@ -82,8 +87,12 @@ a:hover {
 .divInferior__Principal--Cuenta{
     padding-top: 1.5rem;
     color: white;
+    font-weight: bold;
+    font-size: 1.2rem;
 }
-
+.reg{
+    font-size: 0.9rem;
+}
 .divInferior__Principal--Button{
     width: 7rem;
     height: 2rem;
@@ -96,11 +105,9 @@ a:hover {
 
 
 .divSuperior__H5 {
-    /* font-family: 'Poppins'; */
     color: rgba(46, 54, 123, 1);
-    font-weight: 700;
+    font-weight: bold;
     font-size: 1.2rem;
-    /* line-height: 21px; */
     display: flex;
     justify-content: center;
     padding: 1rem 0;
