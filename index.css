@@ -17,7 +17,7 @@ h1 {
 
 
 .modal {
-    display: none;
+    display: block;
     position: fixed;
     z-index: 1;
     overflow: auto;
@@ -113,7 +113,7 @@ a:hover {
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 4rem;
+    height: 5rem;
 }
 
 .divSuperior__Input {
@@ -121,9 +121,12 @@ a:hover {
     justify-content: center;
     width: 90%;
     margin: 0.2rem 0;
-    height: 1.5rem;
     background: #2e367b36;
     border: none;
+}
+
+.divSuperior__Form > .divSuperior__Input {
+    height: 2rem;
 }
 
 .divSuperior > button{
@@ -160,5 +163,25 @@ a:hover {
 }
 
 .close > p {
+    cursor: pointer;
+}
+
+.divSuperior__Buttimg{
+    display: flex;
+    justify-content: space-around;
+    padding: 4rem 0;
+}
+
+.divSuperior__Buttimg > img{
+    height: 1.6rem;
+    width: 6rem;
+}
+
+.divSuperior__Buttimg > button{
+    width: 6rem;
+    height: 1.6rem;
+    background-color: rgba(46, 54, 123, 1);
+    color: white;
+    border: none;
     cursor: pointer;
 }
