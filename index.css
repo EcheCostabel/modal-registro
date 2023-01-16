@@ -26,6 +26,7 @@ h1 {
     width: 100%;
     height: 100%;
     background: rgba(0, 0, 0, 0.418);
+
 }
 .flex {
     width: 100%;
@@ -33,6 +34,8 @@ h1 {
     display: flex;
     justify-content: space-between;
     /* align-items: center; */
+    animation-name: modal;
+    animation-duration: 1s;
 }
 
 a {
@@ -136,7 +139,6 @@ a:hover {
 ::placeholder{
     color: rgba(46, 54, 123, 1);
 }
-
 @keyframes modal {
     from {
         top: -330px;
@@ -146,8 +148,8 @@ a:hover {
     to {
         top: 0;
         opacity: 1;
-    }
-}
+    } 
+} 
 
 .close {
     color: #ffffff;
